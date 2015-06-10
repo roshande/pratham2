@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="pragma" content="no-cache" />
+	<title>Untitled Document</title>
+    <link rel="stylesheet" type="text/css" href="bootstrap-3.3.4-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="bootstrap-3.3.4-dist/css/bootstrap-theme.min.css"><script type="text/javascript" src="bootstrap-3.3.4-dist/js/bootstrap.min.js"></script>
+	<script src="java.js"></script>
+	<script src="data_alphabets.json"></script>
+	<script src="data_words.json"></script>
+</head>
+<body onload="assign()">
+    <div class="container-fluid">
+		<div class="row">
+			<div style="width:50%;float:left;">
+				<div class="btn btn-block">
+					<button class="btn-primary btn-lg" onClick="puttext('name1')"><span id="name1"></span> <span class="badge" id="temp1"></span></button>
+					<button class="btn-primary btn-lg" onClick="puttext('name2')"><span id="name2"></span> <span class="badge" id="temp2"></span></button>
+					<button class="btn-primary btn-lg" onClick="puttext('name3')"><span id="name3"></span> <span class="badge" id="temp3"></span></button>
+					<button class="btn-primary btn-lg" onClick="puttext('name4')"><span id="name4"></span> <span class="badge" id="temp4"></span></button>
+					<button class="btn-primary btn-lg" onClick="puttext('name5')"><span id="name5"></span> <span class="badge" id="temp5"></span></button>
+					<button class="btn-primary btn-lg" onClick="puttext('name6')"><span id="name6"></span> <span class="badge" id="temp6"></span></button>
+				</div>
+				<div class="btn btn-block">
+					<button class="btn-primary btn-lg" onClick="puttext('name7')"><span id="name7"></span> <span class="badge" id="temp7"></span></button>
+					<button class="btn-primary btn-lg" onClick="puttext('name8')"><span id="name8"></span> <span class="badge" id="temp8"></span></button>
+					<button class="btn-primary btn-lg" onClick="puttext('name9')"><span id="name9"></span> <span class="badge" id="temp9"></span></button>
+					<button class="btn-primary btn-lg" onClick="puttext('name10')"><span id="name10"></span> <span class="badge" id="temp10"></span></button>
+					<button class="btn-primary btn-lg" onClick="puttext('name11')"><span id="name11"></span> <span class="badge" id="temp11"></span></button>
+					<button class="btn-primary btn-lg" onClick="puttext('name12')"><span id="name12"></span> <span class="badge" id="temp12"></span></button>
+					<button class="btn-primary btn-lg" onClick="puttext('name13')"><span id="name13"></span> <span class="badge" id="temp13"></span></button>
+				</div>
+				<div class="btn btn-block">
+					<button class="btn-primary btn-lg" onClick="puttext('name14')"><span id="name14"></span> <span class="badge" id="temp14"></span></button>
+					<button class="btn-primary btn-lg" onClick="puttext('name15')"><span id="name15"></span> <span class="badge" id="temp15"></span></button>
+					<button class="btn-primary btn-lg" onClick="puttext('name16')"><span id="name16"></span> <span class="badge" id="temp16"></span></button>
+					<button class="btn-primary btn-lg" onClick="puttext('name17')"><span id="name17"></span> <span class="badge" id="temp17"></span></button>
+					<button class="btn-primary btn-lg" onClick="puttext('name18')"><span id="name18"></span> <span class="badge" id="temp18"></span></button>
+					<button class="btn-primary btn-lg" onClick="puttext('name19')"><span id="name19"></span> <span class="badge" id="temp19"></span></button>
+					<button class="btn-primary btn-lg" onClick="puttext('name20')"><span id="name20"></span> <span class="badge" id="temp20"></span></button>
+				</div>
+				<div class="btn btn-block">
+					<button class="btn-primary btn-lg" onClick="puttext('name21')"><span id="name21"></span> <span class="badge" id="temp21"></span></button>
+					<button class="btn-primary btn-lg" onClick="puttext('name22')"><span id="name22"></span> <span class="badge" id="temp22"></span></button>
+					<button class="btn-primary btn-lg" onClick="puttext('name23')"><span id="name23"></span> <span class="badge" id="temp23"></span></button>
+					<button class="btn-primary btn-lg" onClick="puttext('name24')"><span id="name24"></span> <span class="badge" id="temp24"></span></button>
+					<button class="btn-primary btn-lg" onClick="puttext('name25')"><span id="name25"></span> <span class="badge" id="temp25"></span></button>
+					<button class="btn-primary btn-lg" onClick="puttext('name26')"><span id="name26"></span> <span class="badge" id="temp26"></span></button>
+				</div>
+			</div>
+
+			<div style="width:50%;float:right;">
+				<input type="text" name="textfield" defaultvalue="Enter some text" id="mytext" disabled>
+				<span><button class="btn-info btn-lg" onClick="reset()" name="Reset">RESET</button></span>
+                
+				<span><button class="btn-info btn-lg" onClick="assign()" name="Reset">REFRESH</button></span>
+			
+            <span><button class="btn-info btn-lg" onclick="assign()" name="">SUBMIT</button></span>
+            <input type="text" name="textfield" id="mytext2" disabled>
+            </div>
+		</div>
+	</div>
+    <input type="button" value="Close Window" onClick="self.close();" onKeyPress="self.close();">
+</body>
+</html>
