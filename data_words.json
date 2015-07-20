@@ -1,0 +1,2 @@
+// JavaScript Document
+var dict='{"dictionary":[' + '{"word":"CAT"},' + '{"word":"MAT"},' + '{"word":"EYE"},' + '{"word":"BAT"},' + '{"word":"FAT"},' + '{"word":"EAR"},' + '{"word":"LEG"},' + '{"word":"RED"},' + '{"word":"CAP"},' + '{"word":"TIE"},' + '{"word":"FIG"}]}';

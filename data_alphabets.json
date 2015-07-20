@@ -1,0 +1,27 @@
+var alpha = '{"alphabets":[' +
+'{"name":"A" , "id":"name1" , "id2":"temp1" } , ' + 
+'{"name":"B" , "id":"name2" , "id2":"temp2" } , ' + 
+'{"name":"C" , "id":"name3" , "id2":"temp3" } , ' + 
+'{"name":"D" , "id":"name4" , "id2":"temp4" } , ' + 
+'{"name":"E" , "id":"name5" , "id2":"temp5" } , ' + 
+'{"name":"F" , "id":"name6" , "id2":"temp6" } , ' + 
+'{"name":"G" , "id":"name7" , "id2":"temp7" } , ' + 
+'{"name":"H" , "id":"name8" , "id2":"temp8" } , ' + 
+'{"name":"I" , "id":"name9" , "id2":"temp9" } , ' + 
+'{"name":"J" , "id":"name10" , "id2":"temp10" } , ' + 
+'{"name":"K" , "id":"name11" , "id2":"temp11" } , ' + 
+'{"name":"L" , "id":"name12" , "id2":"temp12" } , ' + 
+'{"name":"M" , "id":"name13" , "id2":"temp13" } , ' + 
+'{"name":"N" , "id":"name14" , "id2":"temp14" } , ' + 
+'{"name":"O" , "id":"name15" , "id2":"temp15" } , ' + 
+'{"name":"P" , "id":"name16" , "id2":"temp16" } , ' + 
+'{"name":"Q" , "id":"name17" , "id2":"temp17" } , ' + 
+'{"name":"R" , "id":"name18" , "id2":"temp18" } , ' + 
+'{"name":"S" , "id":"name19" , "id2":"temp19" } , ' + 
+'{"name":"T" , "id":"name20" , "id2":"temp20" } , ' + 
+'{"name":"U" , "id":"name21" , "id2":"temp21" } , ' + 
+'{"name":"V" , "id":"name22" , "id2":"temp22" } , ' + 
+'{"name":"W" , "id":"name23" , "id2":"temp23" } , ' + 
+'{"name":"X" , "id":"name24" , "id2":"temp24" } , ' + 
+'{"name":"Y" , "id":"name25" , "id2":"temp25" } , ' + 
+'{"name":"Z" , "id":"name26" , "id2":"temp26" }]}';
