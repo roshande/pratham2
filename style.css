@@ -1,0 +1,29 @@
+#ball {
+    z-index: 10;
+    position: absolute;
+}
+
+img#ball:hover{
+    width: 5vmax;
+    height: 5vmax;
+}
+/* Chrome, Safari, Opera 
+@-webkit-keyframes example {
+    0%   { left:0px; top:0px;}
+    25%  { left:200px; top:0px;}
+    50%  { left:200px; top:200px;}
+    75%  { left:0px; top:200px;}
+    100% { left:0px; top:0px;}
+}
+
+/* Standard syntax 
+@keyframes example {
+    0%   { left:20%; top:80vh;}
+    14%  { left:40%; top:60vh;}
+    30%  { left:50%; top:40vh;}
+    45%  { left:65%; top:15vh;}
+    60%  { left:58%; top:55vh;}
+    73%  { left:70%; top:55vh;}
+    86%  { left:67%; top:80vh;}
+    100% { left:20%; top:80vh;}
+}*/
